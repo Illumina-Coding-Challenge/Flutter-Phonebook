@@ -30,3 +30,9 @@ Run `flutter doctor` or `flutter doctor -v` and ensure all requirement above are
 
 More info on build mode - https://docs.flutter.dev/testing/build-modes
 
+## B. DOWNLOAD OPTION
+
+If you dont want to setup, you also can installed directly to your android phone. You can get the build apk at the path :
+`build\app\outputs\flutter-apk\app-release.apk`
+
+
