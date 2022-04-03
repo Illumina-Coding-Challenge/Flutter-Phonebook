@@ -1,16 +1,38 @@
-# phonebook_flutter
+## A. REQUIREMENT
+At the time of developement phase, below is the requirement specification to run the project.
+- Flutter Channel Stable 2.10.0 (Come with Dart version 2.16.0 & DevTools version 2.9.2)
+- Android toolchain - develop for Android devices (Android SDK version 32.1.0-rc1)
+- Android Studio (version 2021.1)
+- Android Emulator / Android Devices (Android 5.0 and above)
 
-A new Flutter project.
+Run `flutter doctor` or `flutter doctor -v` and ensure all requirement above are meet
 
-## Getting Started
+## B. INSTALLATION STEPS
 
-This project is a starting point for a Flutter application.
+**1) Clone**
+- HTTPS : `https://gitlab.com/zulzayn/flutter-phonebook.git` 
+<br> or
+- SSH : `git@gitlab.com:zulzayn/flutter-phonebook.git`
 
-A few resources to get you started if this is your first Flutter project:
+**2) run - `flutter pub get`**
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### DEVELOPMENT RUN MODE
+
+**A) Debug Mode**
+- run - `flutter run` 
+
+**B) Release Mode** 
+- run - `flutter run --release` 
+
+**C) Profile Mode** 
+- run - `flutter run --profile` 
+
+More info on build mode - https://docs.flutter.dev/testing/build-modes
+
+## C. DOWNLOAD OPTION
+
+If you dont want to setup, you also can installed directly to your android phone. You can get the build apk at the path :
+`build\app\outputs\flutter-apk\app-release.apk`
+
+
