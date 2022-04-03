@@ -33,6 +33,6 @@ More info on build mode - https://docs.flutter.dev/testing/build-modes
 ## C. DOWNLOAD OPTION
 
 If you dont want to setup, you also can installed directly to your android phone. You can get the build apk at the path :
-`build\app\outputs\flutter-apk\app-release.apk`
+`~\app-release.apk`
 
 
